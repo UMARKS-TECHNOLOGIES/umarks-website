@@ -72,7 +72,6 @@ header .head .nav nav ul {
 header .head .nav nav ul li a {
     text-decoration: none;
     color: #FBFCF8;
-    /* font-family: "Poppins", sans-serif; */
     font-family: 'poppins', sans-serif;
     /* font-family: "Barlow Condensed", sans-serif; */
     /* font-family: "Oswald", sans-serif; */
@@ -86,7 +85,7 @@ header .head .nav nav ul li a:hover {
 }
 
 header .head .nav nav ul li .call {
-    margin-left: 150px;
+    margin-left: 130px;
     font-weight: normal;
     border-radius: 50px;
     padding: 2px 25px;
@@ -144,6 +143,12 @@ header .head #nav-overlay {
     margin-left: 5px;
     margin-top: 40px;
     margin-bottom: 10px;
+}
+
+.process .container .cont .logo:hover {
+    background-color: #67d9fc;
+    transition: ease-in 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .process .container .cont .logo img {
